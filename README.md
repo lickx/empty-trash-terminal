@@ -26,10 +26,8 @@ OutboundDisallowForUserScripts = 0.0.0.0/8|10.0.0.0/8|100.64.0.0/10|127.0.0.0/8|
 Caution, this would allow any lsl script (even in a visitor's attachment) to
 access any webserver in that private subnet, for example your NAS storage!
 
-2. Secure: Use [opensim-lickx](https://github.com/lickx/opensim-lickx) instead of stock OpenSim.
+2. Secure: Use [opensim-lotix](https://git.lotix.org/lotek/opensim) instead of stock OpenSim.
 This (only) allows requests from the /lslhttp folder even on blacklisted private networks.
-See commit [7503d1a](https://github.com/lickx/opensim-lickx/commit/7503d1a23fd4a45742295cdb44223d2f7ac4033a) if you would like to apply this
-to your own OpenSim fork.
 
 
 If the php script listens on the public ip (not recommended), ALLOWED_HOST should
